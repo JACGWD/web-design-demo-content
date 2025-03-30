@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {box-sizing: border-box; margin: 0; padding: 0; font-size: 100%;}
+        img {max-width: 100%; height: auto;}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- use wrapper to center content on larger screens -->
+
+<header>
+    <!-- header {} -->
+
+    <div class="branding">
+        <!-- .branding {} , div.branding {} , or header div.branding {}  -->
+
+        <a href="#">
+            <!-- .branding > a  {} -->
+            
+            <img src="img/svg-square.svg" alt="logo" id="logo"></a>
+            <!-- #logo {} -->
+
+        <div class="companyinfo">
+            <!-- .companyinfo  {} -->
+
+            <p class="brand">Company Name</p>
+            <!-- .brand  {} -->
+
+            <p class="tagline">Tagline goes here</p>
+            <!-- .tagline {}  -->
+        </div>
+
+    </div>
+
+    <div class="search"> 
+           <!-- .search  {} -->
+
+        <form action="#">
+            <!-- .search form {}  -->
+
+            <label>Search</label>
+            <!-- .search label {}  -->
+
+            <input type="text" placeholder="type your search terms here">
+            <!-- .search input {}  -->
+
+            <button type="submit">Search</button>
+            <!-- div.search form input[type="submit"]{} -->
+        </form>
+    </div>
+</header>
+
+
+<nav class="main-nav">
+    <!-- nav.main-nav {}  -->
+
+    <li>
+        <!-- nav.main-nav li {}  and nav.main-nav li:first-child {} -->
+
+        <a href="#">Home</a>
+         <!--  nav.main-nav li a {}  -->
+    </li>
+    
+
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Services</a></li>
+    <li>
+        <!-- nav.main-nav li {}  and nav.main-nav li:last-child {} -->
+         <a href="#">Contact</a>
+        </li>
+
+</nav>
+
+<h1>Page Title < h1 ></h1>
+<!-- h1 -->
+
+
+<div class="flex-container">
+    <!-- .flex-container {}  -->
+     <!-- use display: flex (or grid) to create columns once viewport reaches minimum width  -->
+
+    <main>
+        <!-- column one: main {} -->
+
+        <figure>
+             <!-- figure {}  -->
+
+            <img src="img/png-landscape-2048w.png" alt="large image">
+            <!-- figure img {} -->
+
+            <figcaption>Caption text: figcaption{}</figcaption>
+            <!-- figcaption {}  -->
+        </figure>
+
+        <!-- main figure:first-child {}  -->
+
+        <h2>< h2 > text subtitle followed by paragraph: h2+p{}</h2>
+        <!-- h2 {}  -->
+        
+        <p>Laboris sunt ex fugiat cupidatat voluptate duis minim excepteur ad non non. Fugiat dolor id esse elit esse aliqua. Nostrud ut consequat proident laborum ipsum dolore esse reprehenderit culpa esse non incididunt.</p>
+        <!-- p {}  -->
+
+        <p>Ipsum eu pariatur consequat quis qui Lorem sint ullamco irure officia. Aute fugiat do mollit officia officia. Fugiat ea qui occaecat labore. Ipsum eu pariatur consequat quis qui Lorem sint ullamco irure officia. Aute fugiat do mollit officia officia. Fugiat ea qui occaecat labore.</p>
+
+
+        <h3>< h3 > text subtitle followed by paragraph: h3+p{}</h3>
+        <p>Consectetur consectetur esse irure duis adipisicing pariatur eiusmod minim cupidatat occaecat officia. Dolor magna magna consequat labore eiusmod. Veniam incididunt Lorem minim culpa velit in ut. Aliquip ex nulla laborum enim laborum magna ex excepteur et.</p>
+
+        <p>Ipsum eu pariatur consequat quis qui Lorem sint ullamco irure officia. Aute fugiat do mollit officia officia. Fugiat ea qui occaecat labore. Ipsum eu pariatur consequat quis qui Lorem sint ullamco irure officia. Aute fugiat do mollit officia officia. Fugiat ea qui occaecat labore.</p>
+
+        <h2>< h2 > text subtitle followed by UL: h2+ul{}</h2>
+
+        <ul>
+            <!-- ul {}  -->
+
+            <li>Unordered list item 1</li>
+            <!-- li {}  or ul li {}  -->
+
+            <li>Unordered list item 2</li>
+            <li>Unordered list item 3</li>
+            <li>Unordered list item 4</li>
+        </ul>
+
+        <p>Ipsum eu pariatur consequat quis qui Lorem sint ullamco irure officia. Aute fugiat do mollit officia officia. Fugiat ea qui occaecat labore. Ipsum eu pariatur consequat quis qui Lorem sint ullamco irure officia. Aute fugiat do mollit officia officia. Fugiat ea qui occaecat labore.</p>
+
+        <h2>< h2 > followed by iframe: h2+iframe{}</h2>
+
+        <iframe src="https://www.youtube.com/embed/7VEG-dmi9ws?si=6BbuekPUlvc8_slh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- iframe {}  -->
+
+
+        <section>
+            <!-- section {}  -->
+            <h2>< h2 > immediately within a section: section > h2{}</h2>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7VEG-dmi9ws?si=6BbuekPUlvc8_slh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+
+        <h2>< h2 > text subtitle preceded by a section: section+h2{}</h2>
+
+        <ol>
+            <!-- ol {}  -->
+
+            <li>Ordered list item 1</li>
+            <!-- li {}  or ol li {}  -->
+
+            <li>Ordered list item 2</li>
+            <li>Ordered list item 3</li>
+            <li>Ordered list item 4</li>
+        </ol>
+
+        <h2>< h2 > text subtitle followed by a form: h2+form{}</h2>
+        <form action="#" class="contact">
+            <!-- form.contact {}  -->
+
+            <label for="firstname">first name</label>
+            <!-- all labels: : label{} -->
+
+            <input type="text" name="firstname" id="firstname" placeholder="first name input">
+            <!-- all inputs: input {}  -->
+
+            <label for="lastname">last name: label{}</label>
+            <input type="text" name="lastname" id="lastname" placeholder="last name input">
+
+            <label for="email">email: label{}</label>
+            <input type="email"  name="email" id="email" placeholder="email input">
+            <!-- last input in series: input:last-of-type{} -->
+
+            <div class="buttons">
+                <!-- .buttons, use to put buttons side by side with flex or grid -->
+
+                <button type="reset">Reset</button>
+                <!-- input[type="reset"]{} -->
+
+                <button type="submit">Submit</button>
+                <!-- input[type="submit"]{} -->
+            </div>
+        </form>  
+
+    </main>
+
+
+
+    <aside class="sidebar">
+        <!-- column two: aside {}  or aside.sidebar {}  -->
+
+        <h3>< h3 > Sidebar Title</h3>
+        <!-- aside h3 {}  -->
+
+        <p>This is sidebar content</p>
+        <!-- aside p {}  -->
+    </aside>
+
+
+</div>
+
+
+<footer>
+    <!-- footer {} -->
+    <nav class="footer-nav">
+        <!-- .footer-nav {} -->
+
+        <li>
+        <!-- footer nav li {}  -->
+
+        <a href="#">Home</a>
+        <!-- footer nav li a {}  -->
+    </li>
+
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </nav>
+
+    <nav class="footer-social">
+        <!-- .footer-social {} -->
+        <li><a href="#">Mastodon</a></li>
+        <li><a href="#">Bluesky</a></li>
+        <li><a href="#">Email</a></li>
+    </nav>
+
+    <p class="copyright">&copy; Dummy Content, 2025</p>
+    <!-- .copyright {} -->
+
+</footer>
+
+</div>
+    
+</body>
+</html>
