@@ -1,0 +1,44 @@
+/* Add your CSS here */
+
+/* ======== SUGGESTED ORDER OF CSS RULES =========== 
+
+1. DEFINE COLOR PALETTE (USING VARIABLES)
+    1.1 Use names like 
+        --body-bg-color 
+        --header-bg-color
+        See: https://www.w3schools.com/css/css3_variables.asp
+
+2. DEFINE FONTS FAMILIES (USING VARIABLES)
+    2.1 Use Google fonts
+    2.2 Use Adobe fonts
+    2.3 Host your own fonts: see: https://www.transfonter.org
+    2.4 Ensure that the fonts you convert in 2.3 can legally be used that way.
+    2.5 See: https://github.com/JACGWD/Responsive-Design-Winter-2025/blob/main/week-9-notes.md#step-6-add-custom-fonts
+    2.6 Use names like 
+        --titles-font
+        --body-font
+        --caption-font, etc
+        See: https://www.w3schools.com/css/css3_variables.asp
+
+3. ADJUST BASIC MARGINS AND PADDING FOR MOBILE
+    3.1 Header will touch the edges of the screen: no top/left/right margins. Adjust margin bottom.
+    3.2 Nav will touch the edges of the screen: no left/right margins. Adjust margin top/bottom.
+    3.3 .flex-container has zero margins and padding
+    3.4 main and aside must not touch the edges of the screen: adjust margins accordingly.
+    3.4 Footer will touch the edges of the screen: no bottom/left/right margins. Adjust margin top.
+
+4. USE A TYPESCALE
+    4.1 Make sure your chosen fonts are loading on the page, and your H1 uses that font.
+    4.2 Find the longest title used in your site
+    4.3 Adjust the H1 font size so that it fits on a small mobile device (320px at minimum)
+    4.4 Use type scale (https://spencermortensen.com/articles/typographic-scale/)
+    4.5 See: https://github.com/JACGWD/Responsive-Design-Winter-2025/blob/main/week-9-notes.md#pick-your-font-size-for-mobile
+
+5. GO WIDE
+    5.1 Based on the width of your columns (ex: desktop image width or paragraph measure), calculate how wide a container must be to hold two columns of content.
+    5.2 This value is your first media query.
+    5.3 Set containers (ex: div.wrapper or .flex-container) to display content side-by-side starting at that width.
+    5.4 See: https://github.com/JACGWD/Responsive-Design-Winter-2025/blob/main/week-8b-notes.md#setting-elements-side-by-side
+    5.5 Repeat the steps 5.1 - 5.3 for adding a third column if necessary. 
+
+*/
