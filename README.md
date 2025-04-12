@@ -12,7 +12,7 @@ This page is in plain HTML, and contains standard elements like header, navigati
 
 This file can be imported directly into WordPress. It **does not have the HTML elements usually provided by the theme**, such the header, navigation, main, sidebar and footer. 
 
-[See the WordPress XML export file.](./WordPress-Demo-Content-v01.xml)
+[See the WordPress XML export file.](./WordPress-Demo-Content-v02.xml)
 
 ### How To Import This file
 
